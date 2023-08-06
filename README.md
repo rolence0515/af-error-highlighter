@@ -1,10 +1,10 @@
 # af-error-highlighter
 
 #### 彈出視窗
-![](https://example.com/path/to/af-error-highlighter-icon.png)
+![](https://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_7079c3a831546fa30f3c2bcd11cccd16.png?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1691295363&Signature=dAAIpF5xupU6o8cC1lhH5FnrcVQ%3D)
 
 #### Log 頁
-![](https://hackmd.io/_uploads/H13y692jn.png)
+![](https://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_19c48067aeeb46af5e288a27ee895574.png?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1691295397&Signature=aZbN0on6iX%2B5%2Fq89D18LtQUvSeY%3D)
 
 ## 插件介紹
 
