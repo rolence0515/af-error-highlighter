@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>af-error-highlighter</title>
+    <style>
+        body {
+            width: 200px;
+            padding: 10px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        button {
+            width: 100%;
+        }
+
+        .extension-title {
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .extension-icon {
+            display: block;
+            margin: 0 auto;
+            width: 42px;
+            height: 42px;
+            background-image: url("favicon-42x42.png");
+            background-size: cover;
+        }
+
+        .extension-author {
+            text-align: center;
+            font-size: 12px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="extension-title">af-error-highlighter</div>
+    <div class="extension-icon"></div>
+
+    <h3>請輸入要更新的Log頁簽號:</h3>
+    <input type="text" id="elementId" placeholder="Enter the element ID...">
+    <button id="highlightBtn">Highlight</button>
+    <hr />
+
+    <button id="copyBtn">複製Task Instance</button>
+
+    <!-- <hr/>
+    <button id="monitorBtn">開始監控狀態</button>
+    <button id="stopMonitorBtn" style="display: none;">停止監控狀態</button> -->
+
+    <div class="extension-author">作者：Rolence</div>
+
+    <script src="popup_script.js"></script>
+</body>
+
+</html>

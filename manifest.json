@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "af-error-highlighter",
+    "version": "1.0",
+    "description": "A Chrome extension to highlight keywords in specified element's inner HTML.",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "16": "favicon-16x16.png",
+      "48": "favicon-42x42.png",
+      "128": "android-chrome-192x192.png"
+    },
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content_script.js"],
+        "run_at": "document_idle"
+      }
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+    ,
+    "permissions": ["scripting"]
+  }
