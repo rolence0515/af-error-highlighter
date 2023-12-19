@@ -24,13 +24,13 @@ function highlightKeywords(elementId, keyword) {
             const regex1 = /\[\d{4}-\d{2}-\d{2}, \d{2}:\d{2}:\d{2} UTC\]/g;
             const result1 = codeElement.innerText.replace(regex1, match => {
                 const timestamp = match.replace(" UTC", "");
-                return `<span style="color: #ca9b9b; font-size:0.2em">${timestamp}</span>`;
+                return `<span style="color: #ca9b9b; font-size:0.8em">${timestamp}</span>`;
             });
 
             // ２．找出 {subprocess.py:74} 這類時間字串，淺灰色
             const regex2 = /\{\w+\.py:\d+\}/g;
             const result2 = result1.replace(regex2, match => {
-                return `<span style="color: #46a7b9; font-size:0.2em">${match}</span>`;
+                return `<span style="color: #46a7b9; font-size:0.8em">${match}</span>`;
             });
 
             // ３．找出 "DEBUG" 和 "INFO" 字串，灰色底、白色前景字和圓角邊框
